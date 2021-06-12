@@ -1,0 +1,92 @@
+.Review {
+    margin-top: 100px;
+}
+
+.profile {
+    width: 97.6px;
+    height: 97.6px;
+    border-radius: 50%;
+}
+
+.Small-text {
+    height: 42px;
+    margin: 19px 19.3px 82.1px;
+    font-family: LibreBaskerville;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666699;
+}
+
+.Large-text {
+    height: 48px;
+    font-family: LibreBaskerville;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #374b5c;
+}
+
+.Subscribe {
+    position: relative;
+    margin-top: 100px;
+}
+
+.SearchBar {
+    display: flex;
+    width: 569px;
+    height: 69px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.11);
+    position: absolute;
+    top: 150%;
+    left: 35%;
+}
+
+.subscribe-btn {
+    width: 167px;
+    height: 69px;
+    border-radius: 30px;
+    background-color: #00dbd0;
+    border-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.11);
+    padding: 10px 40px;
+    border: 0;
+    outline: 0;
+    color: #374b5c;
+}
+
+.Group-134 {
+    width: 352px;
+    height: 700px;
+    margin: -43px 47px 16px 0;
+    position: absolute;
+    left: -15%;
+    right: 10%;
+    top: -404%;
+    z-index: 1;
+}
+
+.star path {
+    fill: #00dbd0;
+}

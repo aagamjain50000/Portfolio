@@ -1,0 +1,87 @@
+.Blog {
+    margin-top: 250px;
+    z-index: 2;
+}
+
+.H1 {
+    height: 48px;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666699;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Blog .Block-1 .small-text {
+    height: 42px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: #374b5c;
+}
+
+.Block-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Read {
+    text-decoration: underline;
+    text-decoration-color: #00dbd0;
+    text-underline-offset: 5px;
+}
+
+.Group45 {
+    width: 278px;
+    height: 195px;
+    margin: 0 0 18px;
+    object-fit: contain;
+}
+
+.img2 {
+    width: 278px;
+    height: 360px;
+    margin: 80px 75px 80px 75px;
+    padding: 0 0 16.5px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.Group30 {
+    width: 278px;
+    height: 195px;
+    margin: 0 0 18px;
+    object-fit: contain;
+}
+
+.Group11 {
+    width: 278px;
+    height: 195px;
+    margin: 0 0 18px;
+    object-fit: contain;
+}
+
+.Blog-Post-One {
+    width: 112px;
+    height: 24px;
+    margin: 18px 83px 9px;
+    font-family: LibreBaskerville;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00dbd0;
+}

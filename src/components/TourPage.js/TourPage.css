@@ -1,0 +1,49 @@
+.tour-page .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.tour-page .column {
+    flex-direction: column;
+}
+
+.tour-page .Large-text {
+    height: 48px;
+    margin: 14.5px 62px 19px 13px;
+    font-family: LibreBaskerville;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666699;
+}
+
+.Small-text {
+    height: 42px;
+    margin: 19px 19.3px 82.1px;
+    font-family: LibreBaskerville;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666699;
+}
+
+.Group-114 {
+    margin-top: 110px;
+    position: relative;
+}
+
+.Image {
+    width: 240.7px;
+    height: 279.9px;
+    padding: 52.4px .7px 21px 51px;
+}

@@ -1,0 +1,135 @@
+.home-welcome-screen {
+    width: 100vw;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: linear-gradient(to bottom, #f1fefe, rgba(241, 254, 254, 0));
+}
+
+.home-welcome-screen .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+}
+
+.home-welcome-screen .header .logo {
+    display: flex;
+    grid-column-gap: 10px;
+    align-items: center;
+}
+
+.home-welcome-screen .header .logo .logo-icon {
+    width: 75px;
+    height: 75px;
+}
+
+.home-welcome-screen .header .logo .logo-name {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #374b5c;
+}
+
+.home-welcome-screen .header .navbar {
+    display: flex;
+    align-items: center;
+}
+
+.home-welcome-screen .header .navbar .item {
+    font-size: 16px;
+    line-height: 1.31;
+    color: #374b5c;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.home-welcome-screen .header .navbar .item:hover {
+    text-decoration: underline;
+    text-decoration-color: #00dbd0;
+    text-underline-offset: 10px;
+}
+
+.home-welcome-screen .header .navbar .item:active {
+    text-decoration: unset;
+    border: 2px solid #00dbd0;
+    border-radius: 10px;
+}
+
+.home-welcome-screen .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'LibreBaskerville', sans-serif;
+    color: #374b5c;
+    text-align: left;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+}
+
+.home-welcome-screen .info .small-text {
+    font-size: 36px;
+    line-height: 1.33;
+}
+
+.home-welcome-screen .info .large-heading {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.32;
+}
+
+.home-welcome-screen .info .description {
+    font-size: 20px;
+    line-height: 1.35;
+    margin-top: 35px;
+}
+
+.home-welcome-screen .info .explore-btn {
+    width: 220px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: #00dbd0;
+    border-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.home-welcome-screen .graphics {
+    position: relative;
+    left: 45%;
+    top: 25%;
+}
+
+.home-welcome-screen .graphics .image-1 {
+    width: 419px;
+    height: 570px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    z-index: 2;
+}
+
+.home-welcome-screen .graphics .image-2 {
+    height: 200px;
+    width: 220px;
+    padding: 50px;
+    border: solid 3px #00dbd0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 250px;
+    z-index: 1;
+    background: white;
+    outline: 16px white solid;
+}

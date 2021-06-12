@@ -1,0 +1,67 @@
+.f1 {
+    height: 347px;
+    color: #fff;
+}
+
+.logo1 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 109px;
+    height: 41px;
+}
+
+.Rectangle-49 {
+    position: relative;
+}
+
+.f1 .Small-text {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    text-align: left;
+    line-height: 1.72;
+}
+
+.f1 .CopyRight {
+    color: #fff;
+    position: absolute;
+    left: 11%;
+    text-align: left;
+    bottom: 10%;
+    text-decoration: overline;
+    text-decoration-color: #00dbd0;
+    text-underline-position: above;
+    padding: 15px;
+}
+
+.f1 .Information {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    line-height: 1.36;
+}
+
+.f1 .Follow {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    color: #fff;
+}
+
+.Lrge-text {
+    position: relative;
+    margin: 0 0 10px 0;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #00dbd0;
+    text-underline-offset: 15px;
+}
+
+.f1 .Follow .img {
+    margin-top: 15px;
+    position: absolute;
+    display: flex;
+    grid-column-gap: 25px;
+}

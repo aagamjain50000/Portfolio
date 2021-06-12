@@ -1,0 +1,48 @@
+.Represented-Page {
+    height: 508px;
+    background-color: #fbfefe;
+    margin-top: 50px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.Represented-Page .Large-text {
+    height: 48px;
+    margin: 14.5px 62px 19px 13px;
+    font-family: LibreBaskerville;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666699;
+}
+
+.Represented-Page .Small-text {
+    width: 1366px;
+    height: 42px;
+    font-family: LibreBaskerville;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666699;
+}
+
+.Swip {
+    grid-column-gap: 100px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
